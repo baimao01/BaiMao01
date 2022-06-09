@@ -1,4 +1,4 @@
-baseURL = 'http://baimao01.vervel.app/'
+baseURL = 'http://baimao01.vercel.app/'
 languageCode = 'zh-cn'
 title = 'Bai Mao'
 
