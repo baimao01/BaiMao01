@@ -2,7 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'zh-cn'
 title = 'Bai Mao'
 
-theme = 'Card'
+theme = 'card'
 
 [params]
     favicon = '/img/favicon.jpg'
