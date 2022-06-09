@@ -1,0 +1,253 @@
+/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+.right-sidebar {
+    max-height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+// .widget {
+//     max-height: 100vh;
+//     overflow-y: auto;
+//     scrollbar-width: none;
+//     -ms-overflow-style: none;
+
+//     &::-webkit-scrollbar {
+//         display: none;
+//     }
+// }
+
+
+// 引用块CSS
+// 文件位置：~/assets/scss/custom/_custom.scss
+
+blockquote.quote {
+    position: relative;
+    margin: 1.5em -10em 0 -10 ;
+    padding-left: 18%;
+    padding-right: 15%;
+    border: none;
+    background-color: transparent;;
+    &::before {
+        position: absolute;
+        left: 7%;
+        content: '“';
+        color: var(--color-contrast-low);
+        font-size: 3em;
+        font-weight: bold;
+        line-height: 1;
+    }
+    &.poetry {
+        display: table;
+        padding: 0;
+        &::before {
+            left: -1em;
+        }
+        p:last-child {
+            margin: 0;
+        }
+    }
+    &.en {
+        p {
+            line-height: 1.618;
+            text-align: left;
+            hyphens: auto;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+        }
+    }
+}
+@media (max-width:650px) {
+    blockquote.quote {
+        &::before {
+            position: absolute;
+            left: 3.5%;          
+        }
+    }
+}
+
+@media (max-width:500px) {
+    blockquote.quote {
+        &::before {
+            position: absolute;
+            left: 3.5%; 
+            top: 0.1%         
+        }
+    }
+}
+
+
+
+// 文件位置：~/assets/scss/custom/_custom.scss
+
+.notice {
+    position:relative;
+    padding: 1em 1em 1em 2.5em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+    p:last-child {
+        margin-bottom: 0;
+    }
+    .notice-title {
+        position: absolute;
+        left: 0.8em;
+        .notice-icon {
+            width: 1.2em;
+            height: 1.2em;
+        }
+    }
+    &.notice-warning {
+        background: hsla(0, 65%, 65%, 0.15);
+        border-left: 5px solid hsl(0, 65%, 65%);
+        .notice-title {
+            color: hsl(0, 65%, 65%);
+        }
+    }
+    &.notice-info {
+        background: hsla(30, 80%, 70%, 0.15);
+        border-left: 5px solid hsl(30, 80%, 70%);
+        .notice-title {
+            color: hsl(30, 80%, 70%);
+        }
+    }
+    &.notice-note {
+        background: hsla(200, 65%, 65%, 0.15);
+        border-left: 5px solid hsl(200, 65%, 65%);
+        .notice-title {
+            color: hsl(200, 65%, 65%);
+        }
+    }
+    &.notice-tip {
+        background: hsla(140, 65%, 65%, 0.15);
+        border-left: 5px solid hsl(140, 65%, 65%);
+        .notice-title {
+            color: hsl(140, 65%, 65%);
+        }
+    }
+}
+
+[data-theme="dark"] .notice {
+    &.notice-warning {
+        background: hsla(0, 25%, 35%, 0.15);
+        border-left: 5px solid hsl(0, 25%, 35%);
+        .notice-title {
+            color: hsl(0, 25%, 35%);
+        }
+    }
+    &.notice-info {
+        background: hsla(30, 25%, 35%, 0.15);
+        border-left: 5px solid hsl(30, 25%, 35%);
+        .notice-title {
+            color: hsl(30, 25%, 35%);
+        }
+    }
+    &.notice-note {
+        background: hsla(200, 25%, 35%, 0.15);
+        border-left: 5px solid hsl(200, 25%, 35%);
+        .notice-title {
+            color: hsl(200, 25%, 35%);
+        }
+    }
+    &.notice-tip {
+        background: hsla(140, 25%, 35%, 0.15);
+        border-left: 5px solid hsl(140, 25%, 35%);
+        .notice-title {
+            color: hsl(140, 25%, 35%);
+        }
+    }
+}
+
+
+
+// 文件位置：~/assets/scss/custom/_custom.scss
+
+blockquote.quote-center {
+    position: relative;
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--color-contrast-lower);
+    border-bottom: 1px solid var(--color-contrast-lower);
+    p{
+        text-align: center !important;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    &::before {
+        position: absolute;
+        left: 0;
+        content: '“';
+        color: var(--color-contrast-low);
+        font-size: 3em;
+        font-weight: bold;
+        margin-top: -0.42em;
+    }
+    &::after {
+        position: absolute;
+        right: 0;
+        content: '”';
+        color: var(--color-contrast-low);
+        font-size: 3em;
+        font-weight: bold;
+        margin-top: -0.7em;
+    }
+}
+//文本高斯模糊
+.blur {
+   color: transparent;
+   text-shadow:0px 0px 8px rgba(0,0,0,0.5)
+}
+
+.blur:hover {
+   color: transparent;
+   text-shadow:0px 0px 0px rgba(0,0,0,1)
+  
+}
+
+
+//文本黑幕效果
+.shady {
+   color:#000;
+   font-weight: bold;
+   box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
+   transition: all 0.3s ease;
+}
+.shady:hover{
+  font-weight: bold;
+   color:#FFF;
+   box-shadow: 0px -20px 0px rgba(0,0,0,1) inset; 
+}
+
+
+
+//友情链接双栏
+@media (min-width: 1024px) {
+    .article-list--compact.links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: none;
+        box-shadow: none;
+        
+        article {
+            background: var(--card-background);
+            border: none;
+            box-shadow: var(--shadow-l2);
+            margin-bottom: 8px;
+            border-radius: 10px;
+            &:nth-child(odd) {
+                margin-right: 8px;
+            }
+        }
+    }
+}
+
+//修改选中颜色
+::selection {
+    color: #fff;
+    background: #34495e;
+}
+

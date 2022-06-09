@@ -1,0 +1,20 @@
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+{{- $title := partialCached "data/title" . .RelPermalink -}}
+<title>{{ .Title }}</title>
+
+<link rel='canonical' href='{{ .Permalink }}'>
+{{- partial "head/style.html" . -}}
+
+{{ with .Site.Params.favicon }}
+<link rel="shortcut icon" href="{{ . }}" />
+{{ end }}
+
+<div class="mainContainer">
+    {{ block "up-sidebar" . }}
+    {{ partial "sidebar/up.html" . }}
+    {{ end }}
+</div>
+
+{{ partial "setUp.html" . }}

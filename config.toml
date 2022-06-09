@@ -1,0 +1,21 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+title = 'Bai Mao'
+
+theme = 'Card'
+
+[params]
+    favicon = '/img/favicon.jpg'
+
+[[menu.main]]
+name="首页"
+url="/"
+weight="1"
+[[menu.main]]
+name="归档"
+url="/post"
+weight="2"
+[[menu.main]]
+name="关于"
+url="/about"
+weight="3"

@@ -1,0 +1,27 @@
+<header class="site">
+    <div>
+        <div class="site1"></div>
+        <div class="site-meta">
+            <h1 class="site-name">
+                <a href="{{ .Site.BaseURL | relLangURL }}">
+                    {{ .Site.Title }}
+                </a>
+            </h1>
+            <h2>
+                <div class="site-daohang">
+                    {{ range .Site.Menus.main }}
+                    {{if .HasChildren}}
+                    <ul>
+                        {{ range .Children }}
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                        {{ end }}
+                    </ul>
+                    {{ else }}
+                    <a href="{{.URL}}">{{.Name}}</a>
+                    {{end}} {{ end }}
+                </div>
+            </h2>
+        </div>
+        <div class="site2"></div>
+    </div>
+</header>

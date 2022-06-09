@@ -1,0 +1,18 @@
+<html>
+
+<body>
+    <div class="post-menu">
+        {{ range where .Site.RegularPages "Section" "post" }}
+        <div class="post-site">
+            <a class="post-sit-img-a" href="{{ .Permalink }}">
+                <div class="post-site-img"></div>
+            </a>
+            <div class="post-site-name">
+                <h5 class="post-name"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</body>
+
+</html>

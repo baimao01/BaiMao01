@@ -1,0 +1,35 @@
+.site {
+    background-color: #fff;
+    height: auto;
+}
+
+.site1 {
+    background-color: #fff;
+    padding-top: 1%;
+}
+
+.site2 {
+    background-color: #fff;
+    padding-bottom: 1%;
+}
+
+.site-meta {
+    display: block;
+}
+
+.site-name {
+    margin-left: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    float: left;
+    height: auto;
+}
+
+.site-daohang {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}

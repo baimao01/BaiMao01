@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main>
+    <div class="single-menu">
+        {{- if (.Param "ShowToc") }}
+        {{- partial "toc.html" . }}
+        {{- end }}
+        <article>
+            <header>
+                <h1 class="single-title">{{ .Title }}</h1>
+            </header>
+            <h2>{{ .Date.Format "Mon, Jan 2, 2006" }}</h2>
+            {{ .Content }}
+        </article>
+    </div>
+</main>
+{{ end }}
