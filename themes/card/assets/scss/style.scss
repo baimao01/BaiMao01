@@ -23,8 +23,9 @@ body {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: var(--accent-color);
 }
+
 
 img {
     max-width: 100%;
