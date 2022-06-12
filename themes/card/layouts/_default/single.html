@@ -9,7 +9,9 @@
                 <h1 class="single-title">{{ .Title }}</h1>
             </header>
             <h2>{{ .Date.Format "Mon, Jan 2, 2006" }}</h2>
-            {{ .Content }}
+            <div class="single-content">
+                {{ .Content }}
+            </div>
         </article>
     </div>
 </main>

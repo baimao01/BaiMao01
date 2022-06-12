@@ -6,6 +6,7 @@ theme = 'card'
 
 [params]
     favicon = '/img/favicon.jpg'
+    subtitle = '你见过会用电脑的猫吗？'
 
 [[menu.main]]
 name="首页"
