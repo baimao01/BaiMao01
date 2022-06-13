@@ -18,7 +18,7 @@ url="/"
 weight="1"
 [[menu.main]]
 name="归档"
-url="/post"
+url="/tags"
 weight="2"
 [[menu.main]]
 name="关于"
