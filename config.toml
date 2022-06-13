@@ -7,6 +7,10 @@ theme = 'card'
 [params]
     favicon = '/img/favicon.jpg'
     subtitle = '你见过会用电脑的猫吗？'
+    [params.sidebar.avatar]
+        enabled= 'true'
+        local= 'true'
+        src= 'img/avatar.jpg'
 
 [[menu.main]]
 name="首页"
