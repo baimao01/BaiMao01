@@ -2,7 +2,6 @@
 
 @import "pages/menu.scss";
 @import "pages/up.scss";
-@import "pages/list.scss";
 @import "pages/about.scss";
 @import "pages/single.scss";
 @import "pages/post.scss";
@@ -13,6 +12,7 @@
 @import "normalize.scss";
 
 @import "partials/layout/article.scss";
+@import "partials/layout/waline.scss";
 @import "partials/footer.scss";
 @import "partials/toc.scss";
 @import "partials/setup.scss";
@@ -22,13 +22,58 @@ body {
     background-color: #F4F5F7;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+blockquote {
+    background-color: #F4F5F7;
+    padding: 2px 5px 2px 5px;
+    border-left: 5px solid #cccdcf;
+}
+
+hr {
+    border: none;
+    border-bottom: solid #6d6d6d 3px;
+    width: 800px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccdcf;
+}
+
+::-webkit-scrollbar {
+    height: auto;
+}
+
+.single-toc {
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    background-color: #cccdcf;
+    border-radius: 4px;
+
+    #TableOfContents {
+        ul {
+            list-style-type: none;
+            padding-inline-start: 1.5em;
+        }
+    }
+}
+
+/* ==========================================================================
+     Add-Ons
+     ========================================================================== */
+
+/* reCaptcha */
+
 a {
     text-decoration: none;
     color: var(--accent-color);
 }
 
-
-img {
-    max-width: 100%;
-    height: auto;
+pre {
+    code {
+        font-family: var(--code-font-family);
+    }
 }

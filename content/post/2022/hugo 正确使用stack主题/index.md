@@ -5,7 +5,6 @@ categories:
     - 技术
 tags:
     - hugo
-    - blog
 ---
 
 ## 简介

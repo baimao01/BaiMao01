@@ -10,6 +10,11 @@
             </header>
             <h2>{{ .Date.Format "Mon, Jan 2, 2006" }}</h2>
             <div class="single-content">
+                {{ .Render "featured" }}
+                <div class="single-toc">
+                    <h2>目录</h2>
+                    {{ .TableOfContents }}
+                </div>
                 {{ .Content }}
             </div>
         </article>

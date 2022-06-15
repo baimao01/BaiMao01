@@ -6,7 +6,6 @@ categories:
     - 技术
 tags:
     - hugo
-    - blog
 ---
 
 ## 前言

@@ -1,11 +1,10 @@
 ---
-title: "Hugo ｜ 如何将本地博客迁移至其他位置"
+title: "hugo ｜ 如何将本地博客迁移至其他位置"
 date: 2022-02-16
 categories:
     - 技术
 tags:
     - hugo
-    - blog
 ---
 
 ## 简介

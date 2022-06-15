@@ -1,0 +1,17 @@
+<head>
+    <!-- ... -->
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
+    <!-- ... -->
+</head>
+
+<body>
+    <!-- ... -->
+    <div class="waline" id="waline"></div>
+    <script>
+        Waline.init({
+            el: '#waline',
+            serverURL: 'https://blog-api-3v1sge4pd-baimao01.vercel.app/',
+        });
+    </script>
+</body>

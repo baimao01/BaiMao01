@@ -1,37 +1,24 @@
 <main>
     <div class="home">
-        <div class="home-site">
-            <div class="home-site-logo">
-                {{ with .Site.Params.sidebar.avatar }}
-                {{ if (default true .enabled) }}
-                <figure class="site-avatar">
-                    <a href="{{ .Site.BaseURL | relLangURL }}">
-                        {{ if not .local }}
-                        <img src="{{ .src }}" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
-                        {{ else }}
-                        {{ $avatar := resources.Get (.src) }}
-
-                        {{ if $avatar }}
-                        {{ $avatarResized := $avatar.Resize "300x" }}
-                        <img src="{{ $avatarResized.RelPermalink }}" width="{{ $avatarResized.Width }}"
-                            height="{{ $avatarResized.Height }}" class="site-logo" loading="lazy" alt="Avatar">
-                        {{ else }}
-                        {{ errorf "Failed loading avatar from %q" . }}
-                        {{ end }}
-                        {{ end }}
-                    </a>
-                    {{ with $.Site.Params.sidebar.emoji }}
-                    <span class="emoji">{{ . }}</span>
-                    {{ end }}
-                </figure>
+        {{ with .Site.Params.sidebar.avatar }}
+        {{ if (default true .enabled) }}
+        <figure class="site-logo">
+            <a href="{{ .Site.BaseURL | relLangURL }}">
+                {{ $avatar := resources.Get (.src) }}
+                {{ if $avatar }}
+                {{ $avatarResized := $avatar.Resize "300x" }}
+                <img src="{{ $avatarResized.RelPermalink }}" width="{{ $avatarResized.Width }}"
+                    height="{{ $avatarResized.Height }}" class="site-logo" loading="lazy" alt="Avatar">
+                {{ else }}
+                {{ errorf "Failed loading avatar from %q" . }}
                 {{ end }}
-                {{ end }}
-            </div>
-            <div class="home-site-name">
-                <h2 class="home-site-name1">{{ .Site.Title }} 的个人博客</h2>
-                <h4 class="home-site-name1">{{ .Site.Params.subtitle }}</h4>
-            </div>
+            </a>
+        </figure>
+        {{ end }}
+        {{ end }}
+        <div class="home-site-name">
+            <h2 class="home-site-name1">{{ .Site.Title }} 的个人博客</h2>
+            <h4 class="home-site-name1">{{ .Site.Params.subtitle }}</h4>
         </div>
     </div>
-    {{ partial "page/post" . }}
 </main>

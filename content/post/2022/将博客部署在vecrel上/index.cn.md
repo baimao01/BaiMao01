@@ -5,8 +5,6 @@ categories:
     - 技术
 tags:
     - vercel
-    - hugo
-    - blog
 ---
 
 ## 简介
