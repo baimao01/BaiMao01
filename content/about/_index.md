@@ -17,6 +17,6 @@ license: CC BY-NC-ND
 - 游戏
 - 语法
 ## 关于评论系统
-- waline(由于card主题目前还未添加waline)
+- waline (新旧版评论不通用)
 ## 旧版博客
 - [baimao](https://baimao.vercel.app/)

@@ -6,9 +6,20 @@
         {{- end }}
         <article>
             <header>
-                <h1 class="single-title">{{ .Title }}</h1>
+                <a href="{{ .RelPermalink }}">
+                    <h1 class="single-title">{{ .Title }}</h1>
+                </a>
+                <div class="single-title-count">
+                    <h2 class="single-title">
+                        {{ partial "helper/icon" "calendar-time" }}
+                        {{ .PublishDate.Format "2006年01月02日"}}
+                    </h2>
+                    <h2 class="single-title">
+                        {{ partial "helper/icon" "pancil" }}
+                        {{ .WordCount }} 字
+                    </h2>
+                </div>
             </header>
-            <h2>{{ .Date.Format "Mon, Jan 2, 2006" }}</h2>
             <div class="single-content">
                 {{ .Render "featured" }}
                 <div class="single-toc">

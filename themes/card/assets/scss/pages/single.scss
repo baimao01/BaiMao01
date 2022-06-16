@@ -1,7 +1,16 @@
 .single-menu {
-    background-color: #fff;
-    margin: 1% 16% 0% 16%;
-    padding: 1% 1% 1% 1%;
+    background-color: var(--background-color);
+    margin: var(--margin);
+    padding: var(--padding);
+}
+
+.single-title-count {
+    height: 50px;
+
+    .single-title {
+        margin: 0 10px;
+        float: left;
+    }
 }
 
 .single-title {
@@ -9,8 +18,7 @@
 }
 
 .single-toc {
-    background-color: #fff;
-
+    background-color: rgb(185, 185, 185);
 }
 
 .single-content {}

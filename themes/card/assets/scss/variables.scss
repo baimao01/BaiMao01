@@ -1,3 +1,80 @@
+body {
+    margin: 0;
+    background-color: #F4F5F7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+blockquote {
+    background-color: #F4F5F7;
+    padding: 2px 5px 2px 5px;
+    border-left: 5px solid #cccdcf;
+}
+
+hr {
+    border: none;
+    border-bottom: solid #6d6d6d 3px;
+    width: 800px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccdcf;
+}
+
+::-webkit-scrollbar {
+    height: auto;
+}
+
+.single-toc {
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    background-color: #cccdcf;
+    border-radius: 4px;
+
+    #TableOfContents {
+        ul {
+            list-style-type: none;
+            padding-inline-start: 1.5em;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+table {
+    background-color: aliceblue;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 10px auto;
+    border-radius: 4px;
+
+    pre {
+        overflow-x: auto;
+        display: block;
+        background-color: var(--pre-background-color);
+        color: var(--pre-text-color);
+        font-family: var(--code-font-family);
+        line-height: 1.428571429;
+        word-break: break-all;
+        padding: var(--card-padding);
+        white-space: pre-wrap; //长代码自动换行适应页面
+        word-wrap: break-word; //允许长单词或 URL 地址换行到下一行
+
+        code {
+            color: var(--code-text-color);
+            font-family: var(--code-font-family);
+            word-wrap: break-word; //允许长单词或 URL 地址换行到下一行
+        }
+    }
+}
+
+
 :root {
     --shadow-l1: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
     --code-background-color: rgb(213 213 213);
@@ -8,4 +85,11 @@
     --link-background-color: 189, 195, 199;
     --link-background-opacity: 0.5;
     --link-background-opacity-hover: 0.7;
+    --card-border-radius: 10px;
+}
+
+:root {
+    --background-color: #fff;
+    --margin: 1% 16% 0% 16%;
+    --padding: 1% 1% 1% 1%;
 }

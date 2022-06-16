@@ -4,7 +4,7 @@
 <link rel='canonical' href='{{ .Permalink }}'>
 {{- partial "head/style.html" . -}}
 
-{{ with .Site.Params.favicon }}
+{{ with .Site.Params.myBlog.favicon }}
 <link rel="shortcut icon" href="{{ . }}" />
 {{ end }}
 
