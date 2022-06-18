@@ -1,9 +1,6 @@
 {{ define "main" }}
 <main>
     <div class="single-menu">
-        {{- if (.Param "ShowToc") }}
-        {{- partial "toc.html" . }}
-        {{- end }}
         <article>
             <header>
                 <a href="{{ .RelPermalink }}">

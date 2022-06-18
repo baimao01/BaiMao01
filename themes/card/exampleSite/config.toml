@@ -1,29 +1,27 @@
-baseURL = 'http://baimao01.vercel.app/'
+baseURL = "https://example.com/"
 hasCJKLanguage = true
-languageCode = 'zh-cn'
-title = 'Bai Mao'
+languageCode = 'zh-CN'
+title = "Hugo 主题 MemE"
 
-theme = 'card'
-
-[permalinks]
-    post = '/:year/:month/:title/'
+theme = 'card' #主题
 
 [params]
-    toc = 'true'
+    toc = 'true' #是否开启文章目录
     tocWords = '400'
 
     [params.myBlog]
-    subtitle = '你见过会用电脑的猫吗？'
-    favicon = '/img/favicon.jpg'
+    subtitle = '你见过会用电脑的猫吗？' #简介
+    favicon = '/img/favicon.jpg' #网站图标
 
     [params.sidebar.avatar]
         enabled= 'true'
         local= 'true'
-        src= 'img/avatar.jpg'
+        src= 'img/avatar.jpg' #首页头像
 
-    [params.waline]
-        serverURL = 'https://blog-api-ten-rho.vercel.app/'
+    [params.waline] #waline评论配置
+        serverURL = '' #waline评论地址
 
+#顶部菜单
 [menu]
     [[menu.main]]
     name="首页"
@@ -38,6 +36,7 @@ theme = 'card'
     url="/about"
     weight="3"
 
+# Markdown 渲染器
 [markup]
     [markup.goldmark]
         [markup.goldmark.renderer]
@@ -54,8 +53,3 @@ theme = 'card'
         lineNos = 'true'
         lineNumbersInTable = 'true'
         tabWidth = 4
-    
-[sitemap]
-  changefreq = 'monthly'
-  filename = 'sitemap.xml'
-  priority = 0.5
