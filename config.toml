@@ -24,19 +24,20 @@ theme = 'card'
     [params.waline]
         serverURL = 'https://blog-api-ten-rho.vercel.app/'
 
+
 [menu]
     [[menu.main]]
-    name="首页"
-    url="/"
+    name="分类"
+    url="/categories"
     weight="1"
     [[menu.main]]
-    name="归档"
+    name="标签"
     url="/tags"
-    weight="2"
+    weight="1"
     [[menu.main]]
     name="关于"
     url="/about"
-    weight="3"
+    weight="2"
 
 [markup]
     [markup.goldmark]
