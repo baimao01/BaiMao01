@@ -123,7 +123,7 @@ theme = 'card' #你的主题名
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 ```
 完成后继续在`themes/<你的主题名>/assets/scss/`目录下（没有此目录就新建一个）新建`style.scss`文件，这个文件是用来引用其他`scss`文件的，因为如果在`style.html`下引用非常麻烦。以后如果有添加`scss`文件就在`themes/<你的主题名>/assets/scss/`目录下新建，当然你可以在这个目录下新建其他文件夹以便分类。具体引用方法如下：
-```sass
+```scss
 @import "variables.scss";
 
 //所有page样式
