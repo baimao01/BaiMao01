@@ -1,10 +1,13 @@
 ---
-title: "hugo post"
+title: "hugo | 一个好用的在线静态博客写文章方法"
 date: 2022-06-21T18:27:47
-categories: 
-- 技术
+categories:
+    - 技术
 tags: 
-- hugo
+    - hugo
 ---
 
 ## 前言
+{{ notice notice-note}}
+这个工具猫猫也是刚刚
+{{ /notice }}
