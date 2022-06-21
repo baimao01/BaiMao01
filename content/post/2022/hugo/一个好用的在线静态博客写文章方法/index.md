@@ -1,6 +1,6 @@
 ---
 title: "hugo | 一个好用的在线静态博客写文章方法"
-date: 2022-06-21T18:27:47
+date: 2022-06-21
 categories:
     - 技术
 tags: 
