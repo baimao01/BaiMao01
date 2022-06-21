@@ -79,7 +79,6 @@ tags:
     {{ end }}
 </div>
 ```
-完成后就要准备好`style.html`文件了，在`themes/<你的主题名>/latouts/partials/head/`目录下新建此文件。
 ### 首页
 完成以上步骤后就要开始制作博客的首页了，先创建一些文件，这些文件会在`index.html`文件中引用，这样做可以方便后期管理。
 
@@ -116,6 +115,34 @@ theme = 'card' #你的主题名
 ## 引用scss
 完成以上步骤以后你会看到一个丑丑的页面，在之前我们说过了`html`是网站的骨架，那么接下来就要开始给他们套上外表了。
 ### 方法
-首先
+首先在`themes/<你的主题名>/latouts/partials/head/`目录下新建`style.html`文件。
+并且在里面输入
+```html
+{{ $sass := resources.Get "scss/style.scss" }}
+{{ $style := $sass | resources.ToCSS | minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+```
+完成后继续在`themes/<你的主题名>/assets/scss/`目录下（没有此目录就新建一个）新建`style.scss`文件，这个文件是用来引用其他`scss`文件的，因为如果在`style.html`下引用非常麻烦。以后如果有添加`scss`文件就在`themes/<你的主题名>/assets/scss/`目录下新建，当然你可以在这个目录下新建其他文件夹以便分类。具体引用方法如下：
+```sass
+@import "variables.scss";
+
+//所有page样式
+@import "pages/menu.scss";
+@import "pages/up.scss";
+@import "pages/about.scss";
+@import "pages/single.scss";
+@import "pages/post.scss";
+@import "pages/home.scss";
+@import "pages/tags.scss";
+@import "pages/list.scss";
+
+@import "custom.scss";
+@import "normalize.scss";
+
+@import "partials/layout/article.scss";
+@import "partials/footer.scss";
+@import "partials/toc.scss";
+@import "partials/down.scss";
+```
 ## 结束
 完成以上步骤以后恭喜你，你成功完成了你的博客首页，下一篇教程将会叫大家怎么制作文章页面以及文章列表（显示所以文章的地方）。
