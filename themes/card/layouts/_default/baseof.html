@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
-
 <head>
     {{- partial "head/head.html" . -}}
     {{- block "head" . -}}{{ end }}
@@ -17,13 +14,12 @@
     {{- end -}}
     <div class="container main-container flex on-phone--column {{ if $hasWidget }}extended{{ else }}compact{{ end }}">
         <main class="main full-width">
+            {{ partial "header.html" . }}
             {{- block "main" . }}{{- end }}
         </main>
         {{- block "right-sidebar" . -}}{{ end }}
     </div>
 </body>
-
-</html>
 
 {{- partial "comment/waline" . }}
 {{- partial "footer.html" . -}}

@@ -1,4 +1,3 @@
-{{- $title := partialCached "data/title" . .RelPermalink -}}
 <title>{{ .Title }}</title>
 
 <link rel='canonical' href='{{ .Permalink }}'>
@@ -8,10 +7,4 @@
 <link rel="shortcut icon" href="{{ . }}" />
 {{ end }}
 
-<div class="mainContainer">
-    {{ block "up-sidebar" . }}
-    {{ partial "sidebar/up.html" . }}
-    {{ end }}
-</div>
-
-{{ partial "setUp.html" . }}
+{{ partial "sidebar/down.html" . }}

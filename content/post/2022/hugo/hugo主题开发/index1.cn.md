@@ -1,6 +1,8 @@
 ---
 title: "hugo | 主题开发 | 第一章"
 date: 2022-06-14T18:00:34+08:00
+categories:
+    - 技术
 tags: 
     - hugo
 ---

@@ -27,17 +27,29 @@ theme = 'card'
 
 [menu]
     [[menu.main]]
-    name="分类"
-    url="/categories"
-    weight="1"
+    identifier = 'home'
+    name = '首页'
+    url = '/'
+    weight = 1
     [[menu.main]]
-    name="标签"
-    url="/tags"
-    weight="1"
+    identifier = 'posts'
+    name = '归档'
+    weight = 2
     [[menu.main]]
-    name="关于"
-    url="/about"
-    weight="2"
+    parent = 'posts'
+    name='分类'
+    url='/categories'
+    weight = 1
+    [[menu.main]]
+    parent = 'posts'
+    name = '标签'
+    url = '/tags'
+    weight = 2
+    [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about'
+    weight = 3
 
 [markup]
     [markup.goldmark]
@@ -55,8 +67,3 @@ theme = 'card'
         lineNos = 'true'
         lineNumbersInTable = 'true'
         tabWidth = 4
-    
-[sitemap]
-  changefreq = 'monthly'
-  filename = 'sitemap.xml'
-  priority = 0.5
