@@ -8,6 +8,6 @@ tags:
 ---
 
 ## 前言
-{{ notice notice-note}}
+{{< notice notice-note >}}
 这个工具猫猫也是刚刚
-{{ /notice }}
+{{< /notice >}}
