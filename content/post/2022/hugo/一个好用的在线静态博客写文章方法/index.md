@@ -8,7 +8,7 @@ tags:
 ---
 
 ## 相关链接
-[静态博客管理后台](http://jingtaiboke/)
+[静态博客管理后台](https://jingtaiboke.com/)
 ## 前言
 {{< notice notice-note >}}
 这个工具猫猫也是刚刚接触，还不是很熟悉。如有错误可以在评论区纠正qwq
