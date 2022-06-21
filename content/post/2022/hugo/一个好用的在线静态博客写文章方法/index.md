@@ -20,6 +20,6 @@ tags:
 - 简单方便，在浏览器上使用，只要你能用Github就没问题了
 {{< /notice >}}
 
-{{< notice notice-warring >}}
+{{< notice notice-warning >}}
 - 需要能够访问Github
 {{< /notice >}}
