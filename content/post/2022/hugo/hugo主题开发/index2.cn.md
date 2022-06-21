@@ -144,7 +144,5 @@ theme = 'card' #你的主题名
 @import "partials/toc.scss";
 @import "partials/down.scss";
 ```
-> 123
-
 ## 结束
 完成以上步骤以后恭喜你，你成功完成了你的博客首页，下一篇教程将会叫大家怎么制作文章页面以及文章列表（显示所以文章的地方）。
