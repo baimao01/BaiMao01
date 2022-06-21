@@ -15,7 +15,11 @@ tags:
 ## 体验
 先给大家体验以下在告诉大家要不要用吧cwc。
 
-首先就是它的优点：
+首先就是它的优缺点：
 {{< notice notice-tip >}}
+- 简单方便，在浏览器上使用，只要你能用Github就没问题了
+{{< /notice >}}
 
+{{< notice notice-warring >}}
+- 需要能够访问Github
 {{< /notice >}}
