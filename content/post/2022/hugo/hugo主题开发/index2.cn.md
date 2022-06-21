@@ -124,25 +124,133 @@ theme = 'card' #你的主题名
 ```
 完成后继续在`themes/<你的主题名>/assets/scss/`目录下（没有此目录就新建一个）新建`style.scss`文件，这个文件是用来引用其他`scss`文件的，因为如果在`style.html`下引用非常麻烦。以后如果有添加`scss`文件就在`themes/<你的主题名>/assets/scss/`目录下新建，当然你可以在这个目录下新建其他文件夹以便分类。具体引用方法如下：
 ```scss
-@import "variables.scss";
-
 //所有page样式
-@import "pages/menu.scss";
-@import "pages/up.scss";
-@import "pages/about.scss";
-@import "pages/single.scss";
-@import "pages/post.scss";
 @import "pages/home.scss";
-@import "pages/tags.scss";
-@import "pages/list.scss";
-
-@import "custom.scss";
-@import "normalize.scss";
-
-@import "partials/layout/article.scss";
-@import "partials/footer.scss";
-@import "partials/toc.scss";
-@import "partials/down.scss";
 ```
+当然你现还没办法引用，因为你还没有这个文件，当然这只是例子，你想自己做的话也是可以的:D
+引用完成后就要制作首页的`scss`样式了awa。
+### 制作首页`home`样式
+现在就是制作首页样式了，第一步就是创建`scss`文件。在`themes/<你的主题名>/assets/scss/`目录下新建`page`文件夹，并在`page`文件夹内创建`home.scss`文件。然后在`style.scss`中引用，在`home.scss`中输入如下代码：
+```scss
+.home {
+    background-color: var(--background-color); //页面颜色
+    margin: var(--margin);
+    padding: var(--padding);
+}
+
+.home-site {}
+
+.home-site-name {
+    text-align: center;
+    padding: 0% 0% 10% 0%;
+    width: auto;
+}
+
+.home-site-name1 {
+    margin: 0;
+}
+
+.site-logo {
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 100%;
+}
+```
+并且再在`themes/<你的主题名>/assets/scss/`目录下新建`variables.scss`文件并且输入如下代码：
+```scss
+body {
+    margin: 0;
+    background-color: #F4F5F7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+blockquote {
+    background-color: #F4F5F7;
+    padding: 2px 5px 2px 5px;
+    border-left: 5px solid #cccdcf;
+}
+
+hr {
+    border: none;
+    border-bottom: solid #6d6d6d 3px;
+    width: 800px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccdcf;
+}
+
+::-webkit-scrollbar {
+    height: auto;
+}
+
+.single-toc {
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    background-color: #cccdcf;
+    border-radius: 4px;
+
+    #TableOfContents {
+        ul {
+            list-style-type: none;
+            padding-inline-start: 1.5em;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+details {
+    background-color: #F4F5F7;
+    margin: 5px auto;
+}
+
+table {
+    background-color: aliceblue;
+    margin: 0 auto 10px auto;
+    border-radius: 4px;
+    overflow: scroll;
+}
+
+pre {
+    overflow-x: auto;
+    max-width: 850px;
+}
+
+code {
+    color: unset;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+:root {
+    --shadow-l1: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    --code-background-color: rgb(213 213 213);
+    --tag-border-radius: 4px;
+    --code-font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    --accent-color: #34495e;
+    --accent-color-darker: #2c3e50;
+    --link-background-color: 189, 195, 199;
+    --link-background-opacity: 0.5;
+    --link-background-opacity-hover: 0.7;
+    --card-border-radius: 10px;
+}
+
+:root {
+    --background-color: #fff;
+    --margin: 1% 16% 0% 16%;
+    --padding: 1% 1% 1% 1%;
+}
+```
+## 后言
+这样就完成了主页面的制作XD，这个系列都是分开写的，有时候一篇文章要写几天，因为没那么多时间。而且最近在折腾主题:D。
 ## 结束
 完成以上步骤以后恭喜你，你成功完成了你的博客首页，下一篇教程将会叫大家怎么制作文章页面以及文章列表（显示所以文章的地方）。
