@@ -19,9 +19,17 @@ tags:
 刚刚按照VScode后界面是英文的，所以我们需要安装一个语言插件。
 ### 配置中文
 - Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
-## Unity配置
+## 一些配置
+### Unity配置
 安装以下插件
 - C# Debugger for Unity 
 - Unity code Snippets 
 - Unity code Snippets Imoroved 
 - Unity Tools
+### Hugo配置
+在写`hugo`主题的时候常常因为没插件就不好写了，特别是代码高亮。
+如果有写`hugo`主题的需求，强烈建议安装`hugo`的插件：
+{{< notice notice-note >}}
+因为
+{{< /notice >}}
+### TOML代码没颜色
