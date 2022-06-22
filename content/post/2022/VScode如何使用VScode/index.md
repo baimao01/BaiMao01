@@ -30,6 +30,8 @@ tags:
 在写`hugo`主题的时候常常因为没插件就不好写了，特别是代码高亮。
 如果有写`hugo`主题的需求，强烈建议安装`hugo`的插件：
 {{< notice notice-note >}}
-因为
+因为猫猫也不是很清楚哪个插件好用，所以用的是最靠上的那个插件。
 {{< /notice >}}
+- Hugo Language and Syntax Support
 ### TOML代码没颜色
+- Better TOML
