@@ -22,9 +22,9 @@ tags:
 ## 一些配置
 ### Unity配置
 安装以下插件
-- C# Debugger for Unity 
-- Unity code Snippets 
-- Unity code Snippets Imoroved 
+- C# Debugger for Unity
+- Unity code Snippets
+- Unity code Snippets Imoroved
 - Unity Tools
 ### Hugo配置
 在写`hugo`主题的时候常常因为没插件就不好写了，特别是代码高亮。
