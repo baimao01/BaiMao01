@@ -1,0 +1,178 @@
+<head><title>hugo ｜ 为blog加入waline评论区</title>
+
+<link rel='canonical' href='http://baimao01.vercel.app/2022/03/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/'>
+
+<link rel="stylesheet" href="/scss/style.min.e25fcbc2e22d9436979b71b68b7d58da7d553e0bd0b072ad9658042f52113913.css">
+<link rel="shortcut icon" href="/img/favicon.jpg" />
+
+
+<main>
+    <div class="BottomBar">
+        <div class="BottomBar-menu">
+            <div class="BottomBar-setup-icon"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="7 11 12 6 17 11" />
+  <polyline points="7 17 12 12 17 17" />
+</svg></a></div>
+            <div class="BottomBar-setup-icon"><a href="#footer"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline transform="rotate(180 12,8.5) " points="7 11 12 6 17 11" />
+  <polyline transform="rotate(180 12,14.5)" points="7 17 12 12 17 17" />
+</svg></a></div>
+        </div>
+    </div>
+</main>
+</head>
+
+<body class="">
+
+    <div class="container main-container flex on-phone--column compact">
+        <main class="main full-width">
+            <div class="site">
+    <div>
+        <div class="site-meta">
+            <h1 class="site-name">
+                <a href="/">
+                    Bai Mao
+                </a>
+            </h1>
+            <h2>
+                <div class="site-daohang"><a class="menu-item"
+                        href="/" > 首页 
+                    </a>
+                    <div class="dropdown">
+                        <a href="javascript:void(0);" 
+                            class="menu-item menu-more dropbtn" title="" > 归档 
+                        </a>
+                        <div class="menu-more-content dropdown-content"><a href="/categories" title="" > 分类 </a><a href="/tags" title="" > 标签 </a></div>
+                    </div>
+                    <a class="menu-item"
+                        href="/about" > 关于 
+                    </a></div>
+            </h2>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="single-menu">
+        <article>
+            <header>
+                <a href="/2022/03/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/">
+                    <h1 class="single-title">hugo ｜ 为blog加入waline评论区</h1>
+                </a>
+                <div class="single-title-count">
+                    <h2 class="single-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                        2022年03月05日
+                    </h2>
+                    <h2 class="single-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+</svg>
+                        1182 字
+                    </h2>
+                </div>
+            </header>
+            <div class="single-content">
+                
+                <div class="single-toc">
+                    <h2>目录</h2>
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#安装waline">安装waline</a>
+      <ol>
+        <li><a href="#vercel-部署">Vercel 部署</a></li>
+        <li><a href="#环境变量配置数据库">环境变量配置（数据库）</a>
+          <ol>
+            <li><a href="#leancloud">LeanCloud</a></li>
+            <li><a href="#deta-base">Deta Base</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#环境变量填写">环境变量填写</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+                </div>
+                <h2 id="前言">前言</h2>
+<p>具体教程最好还是看waline官方的教程<a href="https://waline.js.org/guide/get-started.html#vercel-%E9%83%A8%E7%BD%B2-%E6%9C%8D%E5%8A%A1%E7%AB%AF">waline快速入门</a></p>
+<h2 id="安装waline">安装waline</h2>
+<h3 id="vercel-部署">Vercel 部署</h3>
+<p>安装waline首先就需要注册一个vercel（别问我能不能用github来部署，答案是不行。github只能用来注册），打开<a href="https://vercel.com/import/project?template=https://github.com/walinejs/waline/tree/main/example">Deploy</a>后点击带有github图标的按钮，登录你的github帐号，之后会要你输入手机号和验证码。注册完毕最好还是再点击一次刚刚的Deploy按钮避免一些问题，注册完毕后打开此链接应该长这样<img src="Deploy.png" alt="">，在<code>Create Git Repository &gt; REPOSITORY NAME</code>里随便填写一个你喜欢的名字我填写的是<code>blog-api</code>填写完毕后点击<code>Create</code>按钮静静等待即可途中不要关闭此网页。一两分钟后，满屏的烟花会庆祝你部署成功。此时点击<code>Go to Dashboard</code>可以跳转到应用的控制台，点击顶部的<code>Settings</code>在网页中找到<code>Environment Variables</code>进入环境变量配置页，并配置环境变量。</p>
+<h3 id="环境变量配置数据库">环境变量配置（数据库）</h3>
+<h4 id="leancloud">LeanCloud</h4>
+<p>在waline快速入手内找到教程，作者用的不是LeanCloud所以请观看waline的教程</p>
+<hr>
+<p>这里提供两个作者用过的数据库，至于使用哪个看个人喜好吧，作者不想填手机号（LeanCloud）所以选择以下两个。</p>
+<h4 id="deta-base">Deta Base</h4>
+<blockquote>
+<p>注意事项：正在使用，此数据库是国外的虽然访问速度不佳但是总比github好一点（至少能打开）。</p>
+</blockquote>
+<h5 id="注册帐号">注册帐号</h5>
+<p>打开<a href="https://docs.deta.sh/docs/base/about/">Deta Base</a>翻到最底下找到一个蓝色的Deta按钮并点击，如果你有网站翻译器的话最好翻译一下。在打开的页面中找到register按钮（如果没有的话你找一个翻译，把<code>注册</code>翻译成英文找一下有没有，当然你的浏览器如果有翻译插件就用翻译插件。注册完毕后会弹出一个页面并告诉你项目密钥和编号记得把它记下来（作者本人已注册找不到退出登录的按钮所以有点忘了，可以去网上找找教程）</p>
+<h4 id="github">GitHub</h4>
+<blockquote>
+<p>注意事项：已弃用，原因github和Deta Base都是国外的，但是用github作为数据库还不如Deta Base，具体你自己试试就知道了即使你登录了发了一条消息刷新一下你的头像都会消失如果你是博主做测试你还会发现你本来应该有的<code>博主</code>标签没了，所以非常不推荐使用github。你硬要用我也没办法）。</p>
+</blockquote>
+<p>用github作为数据库非常&quot;简单&quot;创建一个仓库（名称为waline，其实随便起一个名字都可以但是为了方便辨认所以取名为waline）将此仓库设置为公开的（public）在下方勾选<code>Add a README file</code>之后打开<a href="https://github.com/settings/tokens">github密钥</a>在里面点击此按钮<code>Generate new token</code>在打开的页面里为这个密钥随便取一个名字，找到并勾选<code>repo</code>选项之后在最下方点击绿色按钮创建即可。详细教程见<a href="https://waline.js.org/guide/server/databases.html#cloudbase">waline</a>在下方找到github按照那些变量填写即可</p>
+<h4 id="环境变量填写">环境变量填写</h4>
+<p>按照waline教程填写即可，如果使用其他数据库则按照<a href="https://waline.js.org/guide/server/databases.html#cloudbase">waline</a>教程，在里面找到对应数据库名称填写即可。</p>
+<hr>
+<p>剩下你看官方的教程吧我累了不写了QnQ</p>
+
+            </div>
+        </article>
+    </div>
+</main>
+
+        </main>
+    </div>
+</body><head>
+    
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
+    <style>
+        .waline {
+            background-color: var(--background-color);
+            margin: 1% 16% 0% 16%;
+            padding: 1% 1% 1% 1%;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <div class="waline" id="waline"></div>
+    <script>
+        Waline.init({
+            el: '#waline',
+            serverURL: 'https:\/\/blog-api-ten-rho.vercel.app\/',
+            emoji: [
+                'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
+            ],
+            requiredMeta: ['name', 'email', 'url'],
+        });
+    </script>
+</body><footer id="footer">
+    <div class="footer-site">
+        <h3 class="h3">使用 Hugo 框架搭建</h3>
+        <h3 class="h3">主题 Card 设计人 BaiMao</h3>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">© Licensed Under CC BY-NC-SA
+            4.0</a>
+    </div>
+</footer>

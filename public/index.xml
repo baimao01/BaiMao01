@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bai Mao</title>
+    <link>http://baimao01.vercel.app/</link>
+    <description>Recent content on Bai Mao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://baimao01.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo | 主题开发 | 第四章</title>
+      <link>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91-%E7%AC%AC%E5%9B%9B%E7%AB%A0/</link>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91-%E7%AC%AC%E5%9B%9B%E7%AB%A0/</guid>
+      <description>从本篇文章开始，猫猫将不会告诉大家源码。但是会告诉大家一些语法，这样大家才能自己制作主题。</description>
+    </item>
+    
+    <item>
+      <title>hugo | 一个好用的在线静态博客写文章方法</title>
+      <link>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%94%A8%E7%9A%84%E5%9C%A8%E7%BA%BF%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%86%99%E6%96%87%E7%AB%A0%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%94%A8%E7%9A%84%E5%9C%A8%E7%BA%BF%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%86%99%E6%96%87%E7%AB%A0%E6%96%B9%E6%B3%95/</guid>
+      <description>相关链接 静态博客管理后台 前言 这个工具猫猫也是刚刚接触，还不是很熟悉。如有错误可以在评论区纠正qwq 这是一个能让你在网页上写博客的工具，虽然不</description>
+    </item>
+    
+    <item>
+      <title>hugo | 主题开发 | 第三章</title>
+      <link>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%B8%89%E7%AB%A0/</link>
+      <pubDate>Sun, 19 Jun 2022 13:47:37 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%B8%89%E7%AB%A0/</guid>
+      <description>前言 此教程为hugo0.99.1版本制作的，高版本可能不同。如需使用高版本，请以hugo官方教程为主。 本文章的所有代码都是以猫猫的习惯写的，</description>
+    </item>
+    
+    <item>
+      <title>hugo | 主题开发 | 第二章</title>
+      <link>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
+      <pubDate>Tue, 14 Jun 2022 18:59:43 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
+      <description>相关链接 html菜鸟教程 前言 在完成第一章以后，我们就要开始接触html和scss了，这两者几乎是搭建网站时必备的，首先我们先来了解html。</description>
+    </item>
+    
+    <item>
+      <title>hugo | 主题开发 | 第一章</title>
+      <link>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%B8%80%E7%AB%A0/</link>
+      <pubDate>Tue, 14 Jun 2022 18:00:34 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/06/hugo-%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91-%E7%AC%AC%E4%B8%80%E7%AB%A0/</guid>
+      <description>此教程为hugo0.99.1版本制作的，高版本可能不同。如需使用高版本，请以hugo官方教程为主。 本文章的所有代码都是以猫猫的习惯写的，如果</description>
+    </item>
+    
+    <item>
+      <title>Rime小狼毫 ｜ 输入法『下』</title>
+      <link>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8B/</link>
+      <pubDate>Wed, 09 Mar 2022 16:03:18 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8B/</guid>
+      <description>前言 上一篇文章提供了我的输入法样式，在这一篇文章里我们将加入自己的词库，以及修改一些配置让你的Rime输入法更好用。 暂时停止更新『以后更新』</description>
+    </item>
+    
+    <item>
+      <title>Rime小狼毫 ｜ 输入法『中』</title>
+      <link>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD/</link>
+      <pubDate>Wed, 09 Mar 2022 13:23:20 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD/</guid>
+      <description>前言 上一篇文章教了大家如何安装小狼毫输入法，但是小狼毫输入法自己的样式不是很好看『不过作者发现一个自带的黑色样式很好看，不过还是换成仿win</description>
+    </item>
+    
+    <item>
+      <title>Rime小狼毫 ｜ 输入法『上』</title>
+      <link>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8A/</link>
+      <pubDate>Wed, 09 Mar 2022 13:22:54 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8A/</guid>
+      <description>简介 安利一款超棒的输入法软件Rime『小狼毫』，这篇文章就是用小狼毫输入法写的。小狼毫输入法具有超高的可自定义性，你甚至可以用小键盘来打字，</description>
+    </item>
+    
+    <item>
+      <title>vercel ｜ 将博客部署在vecrel上</title>
+      <link>http://baimao01.vercel.app/2022/03/vercel-%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%9C%A8vecrel%E4%B8%8A/</link>
+      <pubDate>Tue, 08 Mar 2022 08:43:36 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/03/vercel-%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%9C%A8vecrel%E4%B8%8A/</guid>
+      <description>简介 概述 由于github访问速度不佳以及有时无法访问所以需要将博客部署在其他的地方，推荐使用vercel。vercel默认会给我们分配一个.</description>
+    </item>
+    
+    <item>
+      <title>hugo ｜ 为blog加入waline评论区</title>
+      <link>http://baimao01.vercel.app/2022/03/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/03/hugo-%E4%B8%BAblog%E5%8A%A0%E5%85%A5waline%E8%AF%84%E8%AE%BA%E5%8C%BA/</guid>
+      <description>前言 具体教程最好还是看waline官方的教程waline快速入门 安装waline Vercel 部署 安装waline首先就需要注册一个vercel（别问我</description>
+    </item>
+    
+    <item>
+      <title>Markdown ｜ Markdown语法</title>
+      <link>http://baimao01.vercel.app/2022/02/markdown-markdown%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Sat, 19 Feb 2022 11:48:48 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/markdown-markdown%E8%AF%AD%E6%B3%95/</guid>
+      <description>基础语法 标题 markdown语法的一级标题好像不会被stack列入目录里 1 2 3 4 5 6 # 一级标题 ## 二级标题 ### 三级标题 #### 四级标题 ##### 五级标题 ###### 六级</description>
+    </item>
+    
+    <item>
+      <title>VScode ｜ 如何使用VScode</title>
+      <link>http://baimao01.vercel.app/2022/02/vscode-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8vscode/</link>
+      <pubDate>Fri, 18 Feb 2022 22:05:38 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/vscode-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8vscode/</guid>
+      <description>简介 我感觉最好的编辑器！VScode可以直接搜索文件中的代码（终于不需要一个文件一个文件的找了！） 相关链接 VScode官网 VScode下载 下</description>
+    </item>
+    
+    <item>
+      <title>Minecraft ｜ 国际服hypiexl被封号怎么办</title>
+      <link>http://baimao01.vercel.app/2022/02/minecraft-%E5%9B%BD%E9%99%85%E6%9C%8Dhypiexl%E8%A2%AB%E5%B0%81%E5%8F%B7%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
+      <pubDate>Fri, 18 Feb 2022 11:32:28 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/minecraft-%E5%9B%BD%E9%99%85%E6%9C%8Dhypiexl%E8%A2%AB%E5%B0%81%E5%8F%B7%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
+      <description>简介 大家在游玩hypiexl时延迟很高，但是使用了加速IP、加速器被封号怎么办？别怕这期教程会帮你解决。 注册hypiexl官网帐号 被封号后注</description>
+    </item>
+    
+    <item>
+      <title>hugo ｜ 正确使用stack主题</title>
+      <link>http://baimao01.vercel.app/2022/02/hugo-%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8stack%E4%B8%BB%E9%A2%98/</link>
+      <pubDate>Thu, 17 Feb 2022 21:55:45 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/hugo-%E6%AD%A3%E7%A1%AE%E4%BD%BF%E7%94%A8stack%E4%B8%BB%E9%A2%98/</guid>
+      <description>简介 今天准备更新博客的主题版本时发现使用3.0.0以上版本时会报错，之后在下载位置往下找到3.0.0时发现在3.0.0及以上版本时需要使用扩</description>
+    </item>
+    
+    <item>
+      <title>hugo ｜ 一键部署到gitee或github上</title>
+      <link>http://baimao01.vercel.app/2022/02/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/hugo-%E4%B8%80%E9%94%AE%E9%83%A8%E7%BD%B2%E5%88%B0gitee%E6%88%96github%E4%B8%8A/</guid>
+      <description>简介 这个教程可以让你只打开一个程序就将你的网站部署到github page上。 部署脚本 第一次使用 如果是第一次使用的话不推荐使用，因为只有在第一</description>
+    </item>
+    
+    <item>
+      <title>hugo ｜ 如何在hugo的文章里插入图片及网站</title>
+      <link>http://baimao01.vercel.app/2022/02/hugo-%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E7%9A%84%E6%96%87%E7%AB%A0%E9%87%8C%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/hugo-%E5%A6%82%E4%BD%95%E5%9C%A8hugo%E7%9A%84%E6%96%87%E7%AB%A0%E9%87%8C%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%8F%8A%E7%BD%91%E7%AB%99/</guid>
+      <description>简介 大家在网站中想做教程的时候肯定需要插入图片，那么如何插入呢？这篇文章会告诉大家。 插入图片 首先需要在文章的目录下放入图片，之后在文章中写入</description>
+    </item>
+    
+    <item>
+      <title>hugo ｜ 如何将本地博客迁移至其他位置</title>
+      <link>http://baimao01.vercel.app/2022/02/hugo-%E5%A6%82%E4%BD%95%E5%B0%86%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E8%87%B3%E5%85%B6%E4%BB%96%E4%BD%8D%E7%BD%AE/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/hugo-%E5%A6%82%E4%BD%95%E5%B0%86%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E8%87%B3%E5%85%B6%E4%BB%96%E4%BD%8D%E7%BD%AE/</guid>
+      <description>简介 大家搭建只用hugo框架的网站的时候肯定遇到过这个网站在本地的位置不对，所以需要将本地的移动到其他位置但是又不敢怕已经部署好的会出问题。</description>
+    </item>
+    
+    <item>
+      <title>Blockbench ｜ 如何使用blockbench建模</title>
+      <link>http://baimao01.vercel.app/2022/02/blockbench-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8blockbench%E5%BB%BA%E6%A8%A1/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/blockbench-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8blockbench%E5%BB%BA%E6%A8%A1/</guid>
+      <description>简介 本文所有内容都是作者自己的经验，不能让你对blockbench有完整的理解。 相关链接 blockbench官网 blockbench官网下载</description>
+    </item>
+    
+    <item>
+      <title>unity ｜ 如何使用unity 1</title>
+      <link>http://baimao01.vercel.app/2022/02/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/unity-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8unity-1/</guid>
+      <description>简介 本文所有内容都是作者自己的经验，不能让你对unity有完整的理解。 相关链接 unity官网 unity中文官网 unity中文官网下载 由于官网</description>
+    </item>
+    
+    <item>
+      <title>hugo ｜ Stack主题的修改</title>
+      <link>http://baimao01.vercel.app/2022/02/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/02/hugo-stack%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BF%AE%E6%94%B9/</guid>
+      <description>前言 大家看完如何使用hugo搭建网站并部署到github可能就想修改自己网站的图标但是网上可能没有找到有用的教程，以及其它的样式。 编辑器工具</description>
+    </item>
+    
+    <item>
+      <title>hugo ｜ 如何使用hugo搭建网站并部署到github</title>
+      <link>http://baimao01.vercel.app/2022/01/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</link>
+      <pubDate>Mon, 24 Jan 2022 10:42:34 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/01/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</guid>
+      <description>前言 概述 1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。 2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或</description>
+    </item>
+    
+  </channel>
+</rss>

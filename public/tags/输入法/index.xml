@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>输入法 on Bai Mao</title>
+    <link>http://baimao01.vercel.app/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+    <description>Recent content in 输入法 on Bai Mao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 09 Mar 2022 16:03:18 +0800</lastBuildDate><atom:link href="http://baimao01.vercel.app/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rime小狼毫 ｜ 输入法『下』</title>
+      <link>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8B/</link>
+      <pubDate>Wed, 09 Mar 2022 16:03:18 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8B/</guid>
+      <description>前言 上一篇文章提供了我的输入法样式，在这一篇文章里我们将加入自己的词库，以及修改一些配置让你的Rime输入法更好用。 暂时停止更新『以后更新』</description>
+    </item>
+    
+    <item>
+      <title>Rime小狼毫 ｜ 输入法『中』</title>
+      <link>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD/</link>
+      <pubDate>Wed, 09 Mar 2022 13:23:20 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%AD/</guid>
+      <description>前言 上一篇文章教了大家如何安装小狼毫输入法，但是小狼毫输入法自己的样式不是很好看『不过作者发现一个自带的黑色样式很好看，不过还是换成仿win</description>
+    </item>
+    
+    <item>
+      <title>Rime小狼毫 ｜ 输入法『上』</title>
+      <link>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8A/</link>
+      <pubDate>Wed, 09 Mar 2022 13:22:54 +0800</pubDate>
+      
+      <guid>http://baimao01.vercel.app/2022/03/rime%E5%B0%8F%E7%8B%BC%E6%AF%AB-%E8%BE%93%E5%85%A5%E6%B3%95%E4%B8%8A/</guid>
+      <description>简介 安利一款超棒的输入法软件Rime『小狼毫』，这篇文章就是用小狼毫输入法写的。小狼毫输入法具有超高的可自定义性，你甚至可以用小键盘来打字，</description>
+    </item>
+    
+  </channel>
+</rss>

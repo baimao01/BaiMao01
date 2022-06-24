@@ -1,0 +1,145 @@
+<head><title>hugo ｜ 如何将本地博客迁移至其他位置</title>
+
+<link rel='canonical' href='http://baimao01.vercel.app/2022/02/hugo-%E5%A6%82%E4%BD%95%E5%B0%86%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E8%87%B3%E5%85%B6%E4%BB%96%E4%BD%8D%E7%BD%AE/'>
+
+<link rel="stylesheet" href="/scss/style.min.e25fcbc2e22d9436979b71b68b7d58da7d553e0bd0b072ad9658042f52113913.css">
+<link rel="shortcut icon" href="/img/favicon.jpg" />
+
+
+<main>
+    <div class="BottomBar">
+        <div class="BottomBar-menu">
+            <div class="BottomBar-setup-icon"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="7 11 12 6 17 11" />
+  <polyline points="7 17 12 12 17 17" />
+</svg></a></div>
+            <div class="BottomBar-setup-icon"><a href="#footer"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline transform="rotate(180 12,8.5) " points="7 11 12 6 17 11" />
+  <polyline transform="rotate(180 12,14.5)" points="7 17 12 12 17 17" />
+</svg></a></div>
+        </div>
+    </div>
+</main>
+</head>
+
+<body class="">
+
+    <div class="container main-container flex on-phone--column compact">
+        <main class="main full-width">
+            <div class="site">
+    <div>
+        <div class="site-meta">
+            <h1 class="site-name">
+                <a href="/">
+                    Bai Mao
+                </a>
+            </h1>
+            <h2>
+                <div class="site-daohang"><a class="menu-item"
+                        href="/" > 首页 
+                    </a>
+                    <div class="dropdown">
+                        <a href="javascript:void(0);" 
+                            class="menu-item menu-more dropbtn" title="" > 归档 
+                        </a>
+                        <div class="menu-more-content dropdown-content"><a href="/categories" title="" > 分类 </a><a href="/tags" title="" > 标签 </a></div>
+                    </div>
+                    <a class="menu-item"
+                        href="/about" > 关于 
+                    </a></div>
+            </h2>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="single-menu">
+        <article>
+            <header>
+                <a href="/2022/02/hugo-%E5%A6%82%E4%BD%95%E5%B0%86%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E8%87%B3%E5%85%B6%E4%BB%96%E4%BD%8D%E7%BD%AE/">
+                    <h1 class="single-title">hugo ｜ 如何将本地博客迁移至其他位置</h1>
+                </a>
+                <div class="single-title-count">
+                    <h2 class="single-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                        2022年02月16日
+                    </h2>
+                    <h2 class="single-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+</svg>
+                        189 字
+                    </h2>
+                </div>
+            </header>
+            <div class="single-content">
+                
+                <div class="single-toc">
+                    <h2>目录</h2>
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#简介">简介</a></li>
+    <li><a href="#直接移动法">直接移动法</a></li>
+  </ol>
+</nav>
+                </div>
+                <h2 id="简介">简介</h2>
+<p>大家搭建只用hugo框架的网站的时候肯定遇到过这个网站在本地的位置不对，所以需要将本地的移动到其他位置但是又不敢怕已经部署好的会出问题。</p>
+<h2 id="直接移动法">直接移动法</h2>
+<p>如果要把在C盘目录下的移动到其他目录就要在要移动到的目录下新建一个文件夹（名称随意也可以用自己网站的网址），之后把C盘目录下的复制一份（不用剪切是怕失败导致所有文章等消失），之后在移动到的文件夹下粘贴即可，完成后不需要重新部署。</p>
+
+            </div>
+        </article>
+    </div>
+</main>
+
+        </main>
+    </div>
+</body><head>
+    
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
+    <style>
+        .waline {
+            background-color: var(--background-color);
+            margin: 1% 16% 0% 16%;
+            padding: 1% 1% 1% 1%;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <div class="waline" id="waline"></div>
+    <script>
+        Waline.init({
+            el: '#waline',
+            serverURL: 'https:\/\/blog-api-ten-rho.vercel.app\/',
+            emoji: [
+                'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
+            ],
+            requiredMeta: ['name', 'email', 'url'],
+        });
+    </script>
+</body><footer id="footer">
+    <div class="footer-site">
+        <h3 class="h3">使用 Hugo 框架搭建</h3>
+        <h3 class="h3">主题 Card 设计人 BaiMao</h3>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">© Licensed Under CC BY-NC-SA
+            4.0</a>
+    </div>
+</footer>

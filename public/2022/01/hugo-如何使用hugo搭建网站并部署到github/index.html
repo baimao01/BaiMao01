@@ -1,0 +1,225 @@
+<head><title>hugo ｜ 如何使用hugo搭建网站并部署到github</title>
+
+<link rel='canonical' href='http://baimao01.vercel.app/2022/01/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/'>
+
+<link rel="stylesheet" href="/scss/style.min.e25fcbc2e22d9436979b71b68b7d58da7d553e0bd0b072ad9658042f52113913.css">
+<link rel="shortcut icon" href="/img/favicon.jpg" />
+
+
+<main>
+    <div class="BottomBar">
+        <div class="BottomBar-menu">
+            <div class="BottomBar-setup-icon"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline points="7 11 12 6 17 11" />
+  <polyline points="7 17 12 12 17 17" />
+</svg></a></div>
+            <div class="BottomBar-setup-icon"><a href="#footer"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-up" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <polyline transform="rotate(180 12,8.5) " points="7 11 12 6 17 11" />
+  <polyline transform="rotate(180 12,14.5)" points="7 17 12 12 17 17" />
+</svg></a></div>
+        </div>
+    </div>
+</main>
+</head>
+
+<body class="">
+
+    <div class="container main-container flex on-phone--column compact">
+        <main class="main full-width">
+            <div class="site">
+    <div>
+        <div class="site-meta">
+            <h1 class="site-name">
+                <a href="/">
+                    Bai Mao
+                </a>
+            </h1>
+            <h2>
+                <div class="site-daohang"><a class="menu-item"
+                        href="/" > 首页 
+                    </a>
+                    <div class="dropdown">
+                        <a href="javascript:void(0);" 
+                            class="menu-item menu-more dropbtn" title="" > 归档 
+                        </a>
+                        <div class="menu-more-content dropdown-content"><a href="/categories" title="" > 分类 </a><a href="/tags" title="" > 标签 </a></div>
+                    </div>
+                    <a class="menu-item"
+                        href="/about" > 关于 
+                    </a></div>
+            </h2>
+        </div>
+    </div>
+</div>
+<main>
+    <div class="single-menu">
+        <article>
+            <header>
+                <a href="/2022/01/hugo-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E7%BD%91%E7%AB%99%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/">
+                    <h1 class="single-title">hugo ｜ 如何使用hugo搭建网站并部署到github</h1>
+                </a>
+                <div class="single-title-count">
+                    <h2 class="single-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                        2022年01月24日
+                    </h2>
+                    <h2 class="single-title">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+  <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+</svg>
+                        2581 字
+                    </h2>
+                </div>
+            </header>
+            <div class="single-content">
+                
+                <div class="single-toc">
+                    <h2>目录</h2>
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a>
+      <ol>
+        <li><a href="#概述">概述</a></li>
+        <li><a href="#相关链接">相关链接</a></li>
+      </ol>
+    </li>
+    <li><a href="#搭建博客">搭建博客</a>
+      <ol>
+        <li><a href="#搭建博客之前的准备">搭建博客之前的准备</a>
+          <ol>
+            <li><a href="#下载安装">下载安装</a></li>
+            <li><a href="#github-page">GitHub Page</a></li>
+            <li><a href="#github-ssh配置">Github SSH配置</a></li>
+          </ol>
+        </li>
+        <li><a href="#开始搭建博客">开始搭建博客</a>
+          <ol>
+            <li><a href="#在本地创建博客">在本地创建博客</a></li>
+            <li><a href="#添加主题">添加主题</a></li>
+            <li><a href="#写文章">写文章</a></li>
+            <li><a href="#将博客上传到互联网">将博客上传到互联网</a></li>
+          </ol>
+        </li>
+        <li><a href="#更新你的博客">更新你的博客</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+                </div>
+                <h2 id="前言">前言</h2>
+<h3 id="概述">概述</h3>
+<ul>
+<li>1.零成本，使用hugo搭建个人网站并部署在GitHub Page上。</li>
+<li>2.本文不能让你对hugo有全面的认知，由此需求请自行搜索教程或阅读官方文档。</li>
+<li>3.由于GitHub属于国外的在国内使用体验较差，建议使用国内的Gitee，两者均通用。</li>
+<li>4.本文会在cmd，git等的命令用括号括起来方便阅读所以之需要输入括号内的字符不需要括号本身，例如[cd 你博客的名称]</li>
+</ul>
+<h3 id="相关链接">相关链接</h3>
+<ul>
+<li><a href="https://www.gohugo.org/">hugo中文官网</a> <a href="https://gohugo.io/">hugo官网</a></li>
+<li><a href="https://www.gohugo.org/theme/">hugo中文官网皮肤列表</a> <a href="https://themes.gohugo.io/">hugo官网皮肤列表</a></li>
+<li><a href="https://github.com/gohugoio/hugo/releases">hugo下载</a></li>
+<li><a href="https://git-scm.com/download/win">git下载</a></li>
+</ul>
+<h2 id="搭建博客">搭建博客</h2>
+<h3 id="搭建博客之前的准备">搭建博客之前的准备</h3>
+<h4 id="下载安装">下载安装</h4>
+<p>我们打开相关链接中的hugo下载以及git下载，按照一下方法下载安装。</p>
+<ul>
+<li>
+<p>hugo 选择你的系统进行下载，以我的为例 <img src="hugo%E5%AE%89%E8%A3%85%E5%9B%BE%E7%89%87.png" alt=""> ，下载好了之后我们把它放的一个地方（你喜欢放哪就放哪）然后解压。安装好了之后我们还要配置一下系统环境。</p>
+</li>
+<li>
+<p>hugo 系统环境配置， 找到你的计算机图标，右键找到属性并点击，打开后会有一个界面我们找到 高级系统设置 并打开，打开后会出来一个界面我们点击下面的环境变量。在环境变量中找到Path并打开，如果你的path里已经有其他变量了则在最后一行输入;你的hugo存放位置(例如我的是;D:\boke\bin本人系统为windows7，windows10可能不同，win10直接点击添加输入hugo的路径即可)之后我们在键盘上同时按下 windows+R 之后在弹出的界面里输入cmd并回车或点击确定，然后会弹出一个窗口，我们在里面输入hugo version之后回车，如果显示 <img src="%E7%A1%AE%E5%AE%9A%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F.png" alt=""> 就代表安装成功了。</p>
+</li>
+<li>
+<p>git 下载，在相关链接内找到git下载，打开链接后我们安装你的选择64-bit Git for Windows (如果你的系统是32位就选择32-bit Git for Windows)。下载下来后我们打开Git的安装包然后按Next选择你要安装的位置，之后一直按Next即可。</p>
+</li>
+</ul>
+<h4 id="github-page">GitHub Page</h4>
+<ul>
+<li>我们需要把我们的博客部署到GitHub Page所以我们需要GitHub帐号，这里不演示百度上一搜就有。然后新建一个仓库，这个仓库要使用一下格式命名及配置， <img src="GitHub%E4%BB%93%E5%BA%93%E5%88%9B%E5%BB%BA.png" alt=""> 都完成后点击下方的绿色按钮就创建成功了(如果重复了名称那里会发红)。</li>
+</ul>
+<h4 id="github-ssh配置">Github SSH配置</h4>
+<ul>
+<li>先在C:\Users\你的名字\目录下右键在菜单内找到并点击Git Bash Here然后输入[ssh-keygen -t rea -C &ldquo;你注册Github的邮箱地址&rdquo;]之后一直按4次回车（在上一个回车按完并且弹出下一个时），之后会在你的C:\Users\你的名字\目录下生成一个.ssh文件夹我们打开它。然后你会看到2个文件，一个是没有后缀的和有后缀的（如果都没有显示后缀就在网上查找方法）我们用任意一个文本编辑器打开有后缀的那个文件，然后同时按下Ctrl+A选中全部文本，之后再Ctrl+C复制。然后打开Github页面，左键点击你的头像，在弹出的页面内选择Settings。之后在打开的页面内找到 SSH and GPG keys并点击，找到绿色的New SSH key按钮并点击，在打开的页面里找到Key下面的框框并点击把你刚刚复制的东西Ctrl+V粘贴到里面，之后在上面的Tile里随便写一些字（白猫写的是自己GitHub的名字）。之后找到下面的Add SSH key按钮并点击，然后我们的SSH密钥就配置完成了。</li>
+</ul>
+<h3 id="开始搭建博客">开始搭建博客</h3>
+<h4 id="在本地创建博客">在本地创建博客</h4>
+<ul>
+<li>按照之前的方法打开cmd并输入hugo new site 你的网站的名字 ，就在C:User/你的用户名字/ 下生成了一个文件夹，打开它。</li>
+</ul>
+<h4 id="添加主题">添加主题</h4>
+<ul>
+<li>首先我们就需要为我们的网站添加一个主题，首先在相关链接内打开hugo官网皮肤列表(中文也可以但是主题较少)，找到你喜欢的主题之后打开，在打开之后的网页里点击download，把主题下载下来后复制到次路径 C:User/你的用户名字/你的网站名字/themes 目录下之后把主题文件解压并安装当时下载主题时作者告诉你的名字把解压下来的文件命名为那个，之后把主题文件的压缩包删除。然后在解压出来并重新命名的文件夹打开找到以下目录exampleSite打开，把里面的config.toml和content文件夹复制出来到 你的网站名字里替换（如果那个文件夹里没有config.toml只有config.yaml就把config.yaml复制出去并且把config.toml名称改为config_backup.toml）。然后主题就安装完成。</li>
+</ul>
+<h4 id="写文章">写文章</h4>
+<ul>
+<li>首先我们打开cmd输入[cd 你的博客名称]然后输入[hugo new post/这个文章的文件夹名称/index.md]之后hugo会自动在你写的目录下添加一个文章，然后用你的编辑器打开你的文章，你会发现一些字，所以我们先来认识一下这些字是什么意思。（可以先把自动添加的字删除，复制本文章的字进去），本文格式为<img src="%E8%AE%A4%E8%AF%86%E6%96%87%E7%AB%A0%E7%BC%96%E5%86%99%E6%A0%BC%E5%BC%8F.png" alt="">，title: &ldquo;&ldquo;是你的文章名字（名字在&quot;&ldquo;内写）date: xx 是你文章的创建时间，生成这个文章时会自动填写，categories: -xxx是你的文章类别，tags: -xxx是你的文章标签。</li>
+</ul>
+<h4 id="将博客上传到互联网">将博客上传到互联网</h4>
+<ul>
+<li>首先打开config.yaml文件（后缀可能是toml），之后找到baseurl: 将后面的删除（只删除那一行后面的）把你的网站网址填写在后面。</li>
+<li>然后在C:\Users\你的用户名字\你的博客名字 目录下右键打开git bash here（也可以使用cmd但是为了所有命令都能顺利执行所以使用git本身）输入[hugo]等执行完弹出下一个时再输入[cd public]依旧是等执行完之后再输入[git init] (建议输入2次)之后输入[git add -A] (只需要输入1次)之后再输入[git commit -am&quot;init&rdquo;]之后输入[git remote add origin_ssh git@github.com:你的仓库名字/你的仓库名字.github.io.git] （例如我的是[git remote add origin_ssh git@github.com:baimao01/baimao01.github.io.git]建议输入2次）最后再输入[git push -f origin_ssh master]即可上传，然后你的网站地址就是 你的仓库名字.github.io （打开后可能没有任何内容，过一会就有了）。</li>
+</ul>
+<h3 id="更新你的博客">更新你的博客</h3>
+<ul>
+<li>首先在C:\Users\你的用户名字\你的博客名字 目录下右键打开git bash here 之后依次输入[hugo -D]，[cd public]，[git add .]，[git commit -am&quot;init&rdquo;]，[git push -f origin_ssh master]</li>
+</ul>
+
+            </div>
+        </article>
+    </div>
+</main>
+
+        </main>
+    </div>
+</body><head>
+    
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
+    <style>
+        .waline {
+            background-color: var(--background-color);
+            margin: 1% 16% 0% 16%;
+            padding: 1% 1% 1% 1%;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <div class="waline" id="waline"></div>
+    <script>
+        Waline.init({
+            el: '#waline',
+            serverURL: 'https:\/\/blog-api-ten-rho.vercel.app\/',
+            emoji: [
+                'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
+            ],
+            requiredMeta: ['name', 'email', 'url'],
+        });
+    </script>
+</body><footer id="footer">
+    <div class="footer-site">
+        <h3 class="h3">使用 Hugo 框架搭建</h3>
+        <h3 class="h3">主题 Card 设计人 BaiMao</h3>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">© Licensed Under CC BY-NC-SA
+            4.0</a>
+    </div>
+</footer>
