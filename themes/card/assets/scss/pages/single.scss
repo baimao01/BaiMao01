@@ -1,0 +1,24 @@
+.single-menu {
+    background-color: var(--background-color);
+    margin: var(--margin);
+    padding: var(--padding);
+}
+
+.single-title-count {
+    height: 50px;
+
+    .single-title {
+        margin: 0 10px;
+        float: left;
+    }
+}
+
+.single-title {
+    text-align: center;
+}
+
+.single-toc {
+    background-color: rgb(185, 185, 185);
+}
+
+.single-content {}

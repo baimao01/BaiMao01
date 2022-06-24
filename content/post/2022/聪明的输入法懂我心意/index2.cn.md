@@ -7,7 +7,6 @@ categories:
     - 软件
 tags:
     - 输入法
-    - Rime
 ---
 
 ## 前言

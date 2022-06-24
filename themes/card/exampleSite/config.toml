@@ -1,0 +1,55 @@
+baseURL = "https://example.com/"
+hasCJKLanguage = true
+languageCode = 'zh-CN'
+title = "Hugo 主题 MemE"
+
+theme = 'card' #主题
+
+[params]
+    toc = 'true' #是否开启文章目录
+    tocWords = '400'
+
+    [params.myBlog]
+    subtitle = '你见过会用电脑的猫吗？' #简介
+    favicon = '/img/favicon.jpg' #网站图标
+
+    [params.sidebar.avatar]
+        enabled= 'true'
+        local= 'true'
+        src= 'img/avatar.jpg' #首页头像
+
+    [params.waline] #waline评论配置
+        serverURL = '' #waline评论地址
+
+#顶部菜单
+[menu]
+    [[menu.main]]
+    name="首页"
+    url="/"
+    weight="1"
+    [[menu.main]]
+    name="归档"
+    url="/tags"
+    weight="2"
+    [[menu.main]]
+    name="关于"
+    url="/about"
+    weight="3"
+
+# Markdown 渲染器
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = 'true'
+    [markup.tableOfContents]
+        endLevel = 4
+        ordered = 'true'
+        startLevel = 2
+    [markup.highlight]
+        noClasses = 'false'
+        codeFences = 'true'
+        guessSyntax = 'true'
+        lineNoStart = 1
+        lineNos = 'true'
+        lineNumbersInTable = 'true'
+        tabWidth = 4

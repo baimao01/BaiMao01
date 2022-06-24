@@ -1,0 +1,30 @@
+<head>
+    <!-- ... -->
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
+    <style>
+        .waline {
+            background-color: var(--background-color);
+            margin: 1% 16% 0% 16%;
+            padding: 1% 1% 1% 1%;
+        }
+    </style>
+    <!-- ... -->
+</head>
+
+<body>
+    <!-- ... -->
+    <div class="waline" id="waline"></div>
+    <script>
+        Waline.init({
+            el: '#waline',
+            serverURL: '{{ .Site.Params.waline.serverURL }}',
+            emoji: [
+                'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-gif',
+                'https://cdn.jsdelivr.net/gh/norevi/blob-emoji-for-waline@2.0/blobs-png'
+            ],
+            requiredMeta: ['name', 'email', 'url'],
+        });
+    </script>
+</body>

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="tags">
+    <div class="tags-menu">
+        <h1>分类标签有{{ len .Data.Terms }}个</h1>
+        {{ $data := .Data }}
+        {{ range .Data.Terms.ByCount }}
+        {{ $termLink := printf "/%s/%s/" $data.Plural .Term | urlize }}
+        <h2>
+            <a href="{{ $termLink }}">{{ .Term }}</a>
+            有{{ .Count }}篇
+        </h2>
+        <ul>
+            {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+</div>
+{{ partial "page/post" . }}
+{{ end }}

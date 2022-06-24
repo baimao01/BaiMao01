@@ -1,0 +1,31 @@
+{{ define "main" }}
+<main>
+    <div class="single-menu">
+        <article>
+            <header>
+                <a href="{{ .RelPermalink }}">
+                    <h1 class="single-title">{{ .Title }}</h1>
+                </a>
+                <div class="single-title-count">
+                    <h2 class="single-title">
+                        {{ partial "helper/icon" "calendar-time" }}
+                        {{ .PublishDate.Format "2006年01月02日"}}
+                    </h2>
+                    <h2 class="single-title">
+                        {{ partial "helper/icon" "pancil" }}
+                        {{ .WordCount }} 字
+                    </h2>
+                </div>
+            </header>
+            <div class="single-content">
+                {{ .Render "featured" }}
+                <div class="single-toc">
+                    <h2>目录</h2>
+                    {{ .TableOfContents }}
+                </div>
+                {{ .Content }}
+            </div>
+        </article>
+    </div>
+</main>
+{{ end }}
