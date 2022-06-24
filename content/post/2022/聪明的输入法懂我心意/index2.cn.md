@@ -46,5 +46,3 @@ patch:
   "style/layout/round_corner": 0
   "style/layout/spacing": 10
 ```
-## 后言
-我会在下一篇文章中教大家如何使用自定义词库和修改一些配置文件，然你的rime输入法更好用。
