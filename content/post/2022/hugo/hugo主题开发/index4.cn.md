@@ -1,6 +1,6 @@
 ---
 title: "hugo | 主题开发 | 第四章"
-date: 2022-06-24T09:29:28
+date: 2022-06-24
 categories:
     - 技术
 tags:
