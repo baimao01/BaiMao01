@@ -1,4 +1,4 @@
-2022-06-24 22:22:19 星期五baseURL = 'http://baimao.vercel.app/'
+baseURL = 'http://baimao.vercel.app/'
 hasCJKLanguage = true
 languageCode = 'zh-cn'
 title = 'Bai Mao'
