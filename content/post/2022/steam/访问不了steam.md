@@ -1,0 +1,69 @@
+baseURL = 'http://baimao.vercel.app/'
+hasCJKLanguage = true
+languageCode = 'zh-cn'
+title = 'Bai Mao'
+
+theme = 'card'
+
+[permalinks]
+    post = '/:year/:month/:title/'
+
+[params]
+    toc = 'true'
+    tocWords = '400'
+
+    [params.myBlog]
+    subtitle = '你见过会用电脑的猫吗？'
+    favicon = '/img/favicon.jpg'
+
+    [params.sidebar.avatar]
+        enabled= 'true'
+        local= 'true'
+        src= 'img/avatar.jpg'
+
+    [params.waline]
+        serverURL = 'https://blog-api-ten-rho.vercel.app/'
+
+
+[menu]
+    [[menu.main]]
+    identifier = 'home'
+    name = '首页'
+    url = '/'
+    weight = 1
+    [[menu.main]]
+    identifier = 'posts'
+    name = '归档'
+    weight = 2
+    [[menu.main]]
+    parent = 'posts'
+    name='分类'
+    url='/categories'
+    weight = 1
+    [[menu.main]]
+    parent = 'posts'
+    name = '标签'
+    url = '/tags'
+    weight = 2
+    [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about'
+    weight = 3
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = 'true'
+    [markup.tableOfContents]
+        endLevel = 4
+        ordered = 'true'
+        startLevel = 2
+    [markup.highlight]
+        noClasses = 'false'
+        codeFences = 'true'
+        guessSyntax = 'true'
+        lineNoStart = 1
+        lineNos = 'true'
+        lineNumbersInTable = 'true'
+        tabWidth = 4
